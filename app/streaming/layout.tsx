@@ -1,6 +1,6 @@
 import { TabGroup } from '#/ui/tab-group';
 import React from 'react';
-
+import ConfigureAmplifyClientSide from './_components/configure-amplify-client-side';
 const title = 'Streaming';
 
 export const metadata = {
@@ -38,7 +38,7 @@ export default async function Layout({
           ]}
         />
       </div>
-
+      <ConfigureAmplifyClientSide />
       <div>{children}</div>
     </div>
   );
